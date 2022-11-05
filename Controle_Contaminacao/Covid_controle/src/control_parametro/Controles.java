@@ -22,7 +22,7 @@ public class Controles {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Calculo de infectados e insira o tempo: \n");
 		while (input.hasNext()){
-			int t = input.nextInt();
+			int t = input.nextInt(); 
 			if (t >0 && t <= 24)
 				tempo = "horas";
 			else if (t >24)
